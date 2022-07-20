@@ -56,7 +56,6 @@ if st.button("PREDICT"):
    # Trans = preprocess([data])
    transformed = Transform_text(data)
    # st.header(transformed)
-
    # step Two Vectorization
    Vector = vect.transform([transformed])
    # st.header(Vector)
